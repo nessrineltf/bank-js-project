@@ -1,0 +1,356 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F5F5;
+    font-family: "Poppins", sans-serif;
+     font-weight: 200; 
+     font-style: normal; 
+
+}
+
+ /* navbar ::::  */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+}
+.arrow{
+    cursor: pointer;
+}
+
+.auth input {
+    width: 30%;
+    border-radius: 8px;
+    padding: 5px 5px;
+    border: transparent;
+    background-color: white;
+    text-align: center;
+}
+header ,h3 {
+margin-left: 20px;
+font-weight: 300;
+}
+
+main {
+    opacity: 0;
+    transition: 1s all;
+
+}
+
+
+/* ///// main  */
+
+/* main header  */
+.main-header{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.main-title h2 {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.main-title p {
+    color: gray;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.amount{
+font-weight: 500;
+font-size: 30px;
+letter-spacing: 1px;
+}
+
+
+/* ///// mouvements :::  */
+
+
+/* left-side ::: */
+
+.movements{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.right {
+
+    margin-right: 160px;
+    width: 25%;
+ 
+
+}
+
+.left{
+    width: 38%;
+    margin-left: 150px;
+    height: 480px;
+    background-color: white;
+    overflow: scroll;
+
+}
+
+.deposit-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 0.3px rgb(197, 191, 191);
+}
+
+.deposit-counter{
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: linear-gradient(to top left, rgb(104, 173, 0) , greenyellow);
+    color: white;
+    padding: 0px 5px;
+    margin-right: 10px;
+
+}
+
+.deposit{
+    margin-left: 20px;
+
+    
+}
+
+.deposit-date{
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}
+
+.deposit-money{
+    margin-right: 20px;
+}
+
+
+.withdrow-info{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 0.3px rgb(197, 191, 191);
+
+}
+
+.withdrow-counter{
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: linear-gradient(to top left,  red, rgb(244, 72, 72));
+ 
+    color: white;
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+
+.withdrow{
+
+margin-left: 20px;
+}
+
+.withdrow-money{
+    margin-right: 20px;
+}
+
+
+
+/* right-side ::: */
+.transfer-box{
+  border-radius: 5px;
+  background: linear-gradient(to top left , #FBBd00 ,#f48924 );
+    height: 140px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.loan-box{
+    border-radius: 5px;
+    height: 140px;
+    margin-bottom: 10px;
+    background: linear-gradient(to top left ,#78c850 , #34a853 );
+    position: relative;
+}
+
+
+.close-box{
+    border-radius: 5px;
+    height: 140px;
+    background: linear-gradient(to top left ,#F8333C , #FA757C );
+    position: relative;
+}
+
+.input-1{
+    width: 20%;
+    border-radius: 5px;
+    padding: 3px 18px;
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0.485);
+    margin-left: 50px;
+    text-align: center;
+  
+}
+.input-2{
+    width: 20%; 
+    border-radius: 5px;
+    padding: 3px 18px;
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0.485);
+    text-align: center;
+}
+
+
+.btn-movement{
+    padding: 3px 15px;
+    border: transparent;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.box-title{
+    font-size: 15px;
+    font-weight: 500;
+   position: absolute;
+   top: 10px;
+   left: 28px;
+ 
+}
+
+.transfert-form{
+    position: absolute;
+    top: 50px;
+}
+
+.label-container{
+  
+    position: relative;
+}
+
+.label-transfer{
+    position: absolute;
+    left: 75px;
+    font-size: 13px;
+  font-weight: 400;
+  margin-top:8px ;
+}
+
+.laber-amount-transfer{
+    position: absolute;
+    right: 125px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top:8px 
+}
+
+
+/* 
+close box  ::  */
+
+.close-form{
+    position: absolute;
+    top: 50px;
+}
+
+.label-close{
+    position: absolute;
+    left: 75px;
+    font-size: 13px;
+  font-weight: 400;
+  margin-top:8px ;
+}
+
+.label-amount-close{
+    position: absolute;
+    right: 125px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top:8px 
+}
+
+.close-title{
+    font-size: 15px;
+    font-weight: 500;
+   position: absolute;
+   top: 10px;
+   left: 28px;
+}
+
+/* loan box ::  */
+
+.loan-title{
+    font-size: 15px;
+    font-weight: 500;
+   position: absolute;
+   top: 10px;
+   left: 28px;
+}
+
+.label-amount-loan{
+    position: absolute;
+    left: 75px;
+    font-size: 13px;
+  font-weight: 400;
+  margin-top:8px ;
+}
+
+.loan-form{
+    position: absolute;
+    top: 50px;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.values{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.in-container , .out-container, .interest-container{
+    margin-right: 25px;
+}
+
+.in , .out , .interest ,.logged-out{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.in-value , .interest-value {
+    color: #34a853 ;
+    font-size: 25px;
+}
+
+.out-value{
+    color: #F8333C;
+    font-size: 25px;
+}
+.time{
+    font-weight: 700;
+}
